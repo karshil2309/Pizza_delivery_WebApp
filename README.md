@@ -10,7 +10,7 @@ Project in React Js
 
 ![M Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "M Page")
 
-![Payment Page](![Payment Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "Payment")
+![Payment Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "Payment")
 
 This is a prototype and it can be expanded in to huge Big Commerce Website or with react native mobile app can be made too. Also Big Data or Machine 
 Learning Algorithms can be implemented to predict if there are many customers. 
