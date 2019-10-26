@@ -8,7 +8,7 @@ Project in React Js
 
 ![Bottom Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(93).png?raw=true "Main Page")
 
-![Payment Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "Main Page")
+![M Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "M Page")
 
 ![Payment Page](![Payment Page](https://github.com/karshil2309/Pizza_delivery_WebApp/blob/master/Screenshot%20(90).png?raw=true "Payment")
 
