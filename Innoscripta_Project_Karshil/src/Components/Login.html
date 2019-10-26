@@ -1,0 +1,109 @@
+<!Doctype html>
+<html>
+<head>
+	<title>SimpleForm</title>
+	<link rel="icon" type="text/css" href="C:\Users\KARSHIL\Desktop\Wallpapers\nature.jpeg">
+
+</head>
+<style>
+body
+{
+    
+    background-position: static;
+background-repeat:no-repeat;
+background-attachment: scroll;
+    background-size: cover;
+
+}
+
+</style>
+<body>
+<form method="post">
+<div class="image">
+<fieldset>
+
+    <legend>Registration</legend>
+<td>
+<label>User Name:</label></td>
+<td colspan="2">
+<input type="text" name="Username" placeholder="Enter username" autofocus
+autocomplete="on" required/></td><br><br>
+</tr>
+<tr>
+<td><label>Email ID:</label></td>
+<td colspan="2"><input type="email" name="email"/><br><br></td>
+</tr>
+<tr>
+<td ><label>Phone number:</label></td>
+<td colspan="2"><input type="number" name="Phone Number"/></td><br><br>
+</tr>
+<tr>
+<td><label>Password:</label></td>
+<td colspan="2"><input type="password" name="password"/></td><br><br>
+</tr>
+<tr>
+	<td><label>DOB:</label></td>
+	<td><input type="text"></td><br><br>
+</tr>
+<tr>
+<td><label>Age:</label></td>
+<td> <input type="number" name="age" /></td><br><br>
+</tr>
+<tr>
+<td><label>Address:</label></td>
+<td><textarea name="Address"></textarea><br><br></td>
+</tr>
+<tr>
+<td><label>Site Name:</label></td>
+<td><input type="url" name="sitename"></td>
+</tr>
+
+<tr>
+<td><label>Select cars:</label></td>
+<td><select >
+<option value="Audi">Audi</option>
+    <option value="Volvo">Volvo</option>
+<option value="Saab">Saab</option>
+<option value="Dustan">Dustan</option></select>
+</td><br><br>
+<tr>
+<td><label>Gender:</label></td>
+<td><input type="radio" name="gender" value="Male">Male</td>
+<td><input type="radio" name="gender" value="Female">Female</td><br><br>
+</tr>
+<tr>
+<td><label>Hobby</label></td>
+<td><input type="checkbox" name="chess" value"Chess">Chess</td>
+<td><input type="checkbox" name="checkers" value="Checkers">Checkers</td><br><br>
+</tr>
+<tr>
+    <td><label>Your Favourite fruit:</label></td>
+<datalist id="fruits">
+ <option value="Blackberry">Blackberry</option>
+ <option value="Blueberry">Blueberry</option>
+ <option value="Blackcurrent">Blackcurrent</option>
+
+</datalist>
+
+<td>If other, please specify:</td>
+ <label><td><input type="text" name="fruit" list="fruits"></td>
+</label>
+</tr><br><br>
+
+
+<tr><td>Calender:</td>
+<td colspan="2"><input type="month"></td></tr><br>
+
+<tr>
+<td>Comments:</td><br>
+<td colspan="2"><textarea name="comments" rows="3" maxlength="200" cols="60"></textarea></td>
+</tr>
+<br><br>
+<input type="submit"/>&nbsp &nbsp &nbsp <input type="Reset" value="Reset">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>

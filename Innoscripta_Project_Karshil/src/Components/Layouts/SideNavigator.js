@@ -29,55 +29,16 @@ class SideNavigator extends Component {
                     <ul id="menu" className="link">
                         <li>
                             <Link to={{
-                                pathname: '/mealdetails',
+                                pathname: 'login',
                                 mealDetails: {
-                                    name: 'Veg Classic Pizza'
+                                    name: 'Login'
                                 }
                             }}>
-                                Veg Classic Pizza
+                              Login
                             </Link>
                         </li>
-                        <li>
-                            <Link to={{
-                                pathname: '/mealdetails',
-                                mealDetails: {
-                                    name: 'Margrattea'
-                                }
-                        }}>
-                                Margrattea
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={{
-                                pathname: '/mealdetails',
-                                mealDetails: {
-                                    name: 'Farm Fresh'
-                                }
-                        }}>
-                                Farm Fresh
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={{
-                                pathname: '/mealdetails',
-                                mealDetails: {
-                                    name: 'Innoscripta Pizza  '
-                                }
-                        }}>
-                              Innoscripta Pizza
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={{
-                                pathname: '/mealdetails',
-                                mealDetails: {
-                                    name: 'Club Pizza'
-                                }
-                        }}>
-                                Club Pizza
-                            </Link>
-                        </li>
-                        <li id="close-buttom"><Link to="/"><h5>Return to Home page</h5></Link></li>
+
+                        <li id="close-buttom"><Link to="/Login" target="_blank"><h5>Return to Home page</h5></Link></li>
                     </ul>
                  </div>
             </div>

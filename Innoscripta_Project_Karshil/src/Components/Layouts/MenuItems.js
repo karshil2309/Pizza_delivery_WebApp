@@ -104,14 +104,6 @@ const MenuItems = ({
                                     <h3>{title}</h3>
                                     <hr />
 
-                                    <ul className="list-unstyled nutrition">
-                                        <li><span className="flaticon flaticon-protein"></span><p>Protein - 33g</p></li>
-                                        <li><span className="flaticon flaticon-carbohydrate"></span><p>Carbohydrates - 46gm</p></li>
-                                        <li><span className="flaticon flaticon-calories"></span><p>Calories - 750 kcal</p></li>
-                                    </ul>
-                                    <div className="info_btn_shadow">
-                                        info and nutrition
-                                    </div>
                                 </div>
                                 <div className="carousel-inner" role="listbox">
                                     <div className="item active">

@@ -32,8 +32,8 @@ const MenuDetails = [
     {
         title: 'The Real Innoscripta_Pizza',
         image_title: 'Original From Germany',
-        
-        price: 1000,
+        description: 'Protein - 33gCarbohydrates - 46gmCalories - 750 kcal',
+        price: 677,
         row: 2,
         objectID: 4,
     },

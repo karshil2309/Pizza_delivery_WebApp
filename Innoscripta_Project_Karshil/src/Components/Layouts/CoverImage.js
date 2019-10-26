@@ -22,28 +22,7 @@ class CoverImage extends Component {
         const {handlePageChange} = this.props;
         const {sideNavStatus} = this.state;
         return (
-            <div>
-                 <nav className="navbar navbar-default bootsnav no-background navbar-fixed black">
-                    <div className="container">
-                        <div className="attr-nav">
-                            <ul>
-                                <li className="side-menu">
-                                    <a href="javascript:void(0)" onClick={this.toggleSideNav}>
-                                        <i className="fa fa-bars"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="navbar-header">
-                            <a className="navbar-brand" href="javascript:void(0)">
-                                <img src={logo} className="logo" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <SideNavigator
-                        status={!sideNavStatus ? 'side' : 'side on'}
-                     />
-                 </nav>
+
                  <Header
                     title={'fatty'}
                     imgUrl={stamp}
@@ -51,7 +30,7 @@ class CoverImage extends Component {
                  >
 
                  </Header>
-            </div>
+          
         );
     }
 
